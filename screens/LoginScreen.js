@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, TextInput, Button, View, StyleSheet } from 'react-native';
 
 const LoginScreen = () => {
 
+    const[email, setEmail] = useState('');
+    const[password, setPassword] = useState('');
+
+    const emailInputHandler = () => {
+
+    }
+
+    const passwordInputHandler = () => {
+
+    }
+
+    const submitFormHandler = () => {}
+
+    const resetFormHandler = () => {}
 
     return (
         <View style={styles.container}>

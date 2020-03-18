@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet, ShadowPropTypesIOS } from 'react-native';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
 const LandingPage = props => {
     return (
@@ -7,7 +7,9 @@ const LandingPage = props => {
             <Text style={styles.title}>GeekBooks</Text>
             <View style={styles.button}>
                 <Button title="Login" color='green' onPress={() => {
-                    console.log('login');
+                    props.navigation.navigate({
+                        routeName: 'Login'
+                    })
                 }} />
             </View>
             <View style={styles.button}> 

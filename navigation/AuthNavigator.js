@@ -3,10 +3,12 @@ import { createAppContainer } from 'react-navigation';
 
 import LandingScreen from '../screens/LandingScreen';
 import RegisterScreen from '../screens/RegisterScreen';
+import LoginScreen from '../screens/LoginScreen';
 
 const AuthNavigator = createStackNavigator({
     Landing: LandingScreen,
-    Register: RegisterScreen
+    Register: RegisterScreen,
+    Login: LoginScreen
 });
 
 export default createAppContainer(AuthNavigator);
