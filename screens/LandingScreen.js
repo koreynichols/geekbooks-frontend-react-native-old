@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet, ShadowPropTypesIOS } from 'react-native';
 
-const LandingPage = () => {
+const LandingPage = props => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>GeekBooks</Text>
@@ -12,7 +12,9 @@ const LandingPage = () => {
             </View>
             <View style={styles.button}> 
                 <Button title="Register" onPress={() => {
-                    console.log('register')
+                    props.navigation.navigate({
+                        routeName: 'Register'
+                    })
                 }} />
             </View>
         </View>
