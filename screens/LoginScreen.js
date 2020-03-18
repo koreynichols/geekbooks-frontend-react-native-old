@@ -6,17 +6,27 @@ const LoginScreen = () => {
     const[email, setEmail] = useState('');
     const[password, setPassword] = useState('');
 
-    const emailInputHandler = () => {
+    const emailInputHandler = inputText => {
+        setEmail(inputText);
+    };
 
+    const passwordInputHandler = inputText => {
+        setPassword(inputText);
     }
 
-    const passwordInputHandler = () => {
-
+    const submitFormHandler = () => {
+        user = {
+            "email": email,
+            "password": password
+        }
+        console.log(user);
+        resetFormHandler();
     }
 
-    const submitFormHandler = () => {}
-
-    const resetFormHandler = () => {}
+    const resetFormHandler = () => {
+        setEmail('');
+        setPassword('');
+    };
 
     return (
         <View style={styles.container}>
