@@ -2,11 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import AuthNavigator from './navigation/AuthNavigator';
 
-import BooksDetailScreen from './screens/BookDetailScreen';
-
+import BookNavigator from './navigation/BookNavigator';
 export default function App() {
   return (
-    <BooksDetailScreen />
+    <BookNavigator />
   );
 }
 
