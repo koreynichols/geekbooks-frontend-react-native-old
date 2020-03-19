@@ -1,0 +1,971 @@
+{
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "hn1FNJXPMrUC",
+            "etag": "QkE60xl8694",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/hn1FNJXPMrUC",
+            "volumeInfo": {
+                "title": "Confessor",
+                "subtitle": "Sword of Truth",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Macmillan",
+                "publishedDate": "2011-02-01",
+                "description": "Terry Goodkind's bestselling, epic fantasy series Sword of Truth continues with Confessor. Descending into darkness, about to be overwhelmed by evil, those people still free are powerless to stop the coming dawn of a savage new world, while Richard faces the guilt of knowing that he must let it happen. Alone, he must bear the weight of a sin he dare not confess to the one person he loves...and has lost. Join Richard and Kahlan in the concluding novel of one of the most remarkable and memorable journeys ever written. It started with one rule, and will end with the rule of all rules, the rule unwritten, the rule unspoken since the dawn of history. When next the sun rises, the world will be forever changed. At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1429924713"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781429924719"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 608,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 20,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "4.14.13.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=hn1FNJXPMrUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=hn1FNJXPMrUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=hn1FNJXPMrUC&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=hn1FNJXPMrUC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hn1FNJXPMrUC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=hn1FNJXPMrUC&rdid=book-hn1FNJXPMrUC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=hn1FNJXPMrUC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Terry Goodkind&#39;s bestselling, epic fantasy series Sword of Truth continues with Confessor."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ut48F2vhyasC",
+            "etag": "JGWKGg4jUoo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ut48F2vhyasC",
+            "volumeInfo": {
+                "title": "Chainfire",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Macmillan",
+                "publishedDate": "2010-12-28",
+                "description": "With Wizard's First Rule and seven subsequent masterpieces, Terry Goodkind has thrilled readers worldwide with the unique sweep of his storytelling. Now, in Chainfire, Goodkind returns with a new novel of Richard and Kahlan, the beginning of a sequence of three novels that will bring their epic story to its culmination. After being gravely injured in battle, Richard awakes to discover Kahlan missing. To his disbelief, no one remembers the woman he is frantically trying to find. Worse, no one believes that she really exists, or that he was ever married. Alone as never before, he must find the woman he loves more than life itself....if she is even still alive. If she was ever even real. At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1429984406"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781429984409"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 672,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 28,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "5.23.24.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ut48F2vhyasC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ut48F2vhyasC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=ut48F2vhyasC&pg=PT986&dq=inauthor:Terry+Goodkind&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ut48F2vhyasC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ut48F2vhyasC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=ut48F2vhyasC&rdid=book-ut48F2vhyasC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ut48F2vhyasC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Sword of Truth Terry <b>Goodkind</b> ... Edited by Patrick Nielsen Hayden Map by Terry <br>\n<b>Goodkind</b> A Tor Book Published by Tom Doherty Associates, LLC 175 Fifth <br>\nAvenue New York, NY 10010 www.tor-forge.com Tor ® is a registered trademark <br>\nof&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "WzO7jSs6XTYC",
+            "etag": "RvBUmvLWjxE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/WzO7jSs6XTYC",
+            "volumeInfo": {
+                "title": "Wizard's First Rule",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "RosettaBooks",
+                "publishedDate": "2010-09-14",
+                "description": "Wizard’s First Rule, the first novel by Terry Goodkind, was a phenomenon from the moment it was published by Tor Books in 1994, selling more than 100,000 copies in North America alone. It still sells more than 100,000 copies a year and has gone on to bestsellerdom in the United Kingdom and in more than twenty foreign translations as well as audiobook form. It is now being developed as one of the most ambitious television miniseries of all time. Executive Producer Sam Raimi (director of the three Spider-Man movies), in collaboration with Disney/ABC, is creating a 22-episode adaptation of the book to be filmed in New Zealand. Richard and Kahlan’s story unfolds over ten more novels, collectively known as the Sword of Truth series, concluding with Confessor in 2007. Placing Goodkind in the elite club of #1 New York Times bestselling authors, the series has sold more than twenty million copies to date worldwide. In Wizard’s First Rule, Goodkind introduced the world to an ordinary forest guide, Richard Cypher, and the mysterious, powerful woman he comes to love, Kahlan Amnell. Learning his true identity, Richard accepts his destiny as the one man who can stop the bloodthirsty tyrant Darken Rahl. Hunted relentlessly, betrayed and alone, Kahlan calls upon Richard to reach beyond his sword and invoke something more noble within himself as the final confrontation with Darken Rahl looms. The importance of Wizard’s First Rule is sourced in Goodkind taking on the toughest of all literary challenges: to tell an electrifying story of action, violence, and adventure that also makes people think, and that would influence the choices and actions of its readers.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780795330766"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0795330766"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 848,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 155,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.5.5.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=WzO7jSs6XTYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=WzO7jSs6XTYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=WzO7jSs6XTYC&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=WzO7jSs6XTYC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WzO7jSs6XTYC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 8.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 8.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=WzO7jSs6XTYC&rdid=book-WzO7jSs6XTYC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 8990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 8990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Wizard_s_First_Rule-sample-epub.acsm?id=WzO7jSs6XTYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=WzO7jSs6XTYC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Wizard’s First Rule, the first novel by Terry Goodkind, was a phenomenon from the moment it was published by Tor Books in 1994, selling more than 100,000 copies in North America alone."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "RO8aDAAAQBAJ",
+            "etag": "29aSj5dSWMU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/RO8aDAAAQBAJ",
+            "volumeInfo": {
+                "title": "Stone of Tears",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "RosettaBooks",
+                "publishedDate": "2015-03-24",
+                "description": "With Darken Rahl defeated, Richard and Kahlan head back to the Mud People to be married. As they wait for their wedding day to approach, they discover three Sisters of Light are pursuing Richard, intending to take him back to the Old World to be trained as a Wizard. Additionally, unbeknownst to Richard and Kahlan, the veil has been torn and the Stone of Tears has entered the world. According to prophecy, the only person who has a chance at closing the veil is the one bonded to the blade, the one born true.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780795346095"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0795346093"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 979,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4.0,
+                "ratingsCount": 36,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.2.3.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=RO8aDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=RO8aDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=RO8aDAAAQBAJ&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=RO8aDAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RO8aDAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=RO8aDAAAQBAJ&rdid=book-RO8aDAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Stone_of_Tears-sample-epub.acsm?id=RO8aDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=RO8aDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Additionally, unbeknownst to Richard and Kahlan, the veil has been torn and the Stone of Tears has entered the world."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "oCs6BAAAQBAJ",
+            "etag": "wSD2PAQSVMc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/oCs6BAAAQBAJ",
+            "volumeInfo": {
+                "title": "Severed Souls",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Macmillan",
+                "publishedDate": "2014-08-05",
+                "description": "\"Severed Souls -- A sweeping new novel of Richard Rahl, Kahlan Amnell, and their world from New York Times Bestselling author, Terry Goodkind\"--",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780765327741"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0765327740"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 558,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.0,
+                "ratingsCount": 4,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=oCs6BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=oCs6BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=oCs6BAAAQBAJ&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=5&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=oCs6BAAAQBAJ&dq=inauthor:Terry+Goodkind&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Severed_Souls.html?hl=&id=oCs6BAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=oCs6BAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&quot;Severed Souls -- A sweeping new novel of Richard Rahl, Kahlan Amnell, and their world from New York Times Bestselling author, Terry Goodkind&quot;--"
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "XUeJDwAAQBAJ",
+            "etag": "bchtjiq4RSo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/XUeJDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Wasteland",
+                "subtitle": "The Children of D'Hara, episode 3",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Head of Zeus Ltd",
+                "publishedDate": "2019-10-07",
+                "description": "'The Sword of Truth series was my masterwork. Yet, life for these characters goes on after the conclusion of that series. For years readers have been asking about Richard and Kahlan's children. This is that story' TERRY GOODKIND. In 1994 Wizard's First Rule introduced Richard Cypher, a young woodsman seeking answers and vengeance in the aftermath of his father's murder, and Kahlan Amnell, a mysterious young woman pursued by a bloodthirsty tyrant's assassins. The Sword of Truth is one of the most ambitious fantasy series ever written. It was a decades-long masterwork that has been translated into 20 languages and sold 26 million copies. After 16 volumes and one novella, it concluded in 2016 with Warheart. The Children of D'Hara picks up immediately after the conclusion of the Sword of Truth series. The story will be told in instalments, as novella-length episodes published every three months. Wasteland is the third novella.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781789541212"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1789541212"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 240,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.3.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=XUeJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=XUeJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=XUeJDwAAQBAJ&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=XUeJDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XUeJDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=XUeJDwAAQBAJ&rdid=book-XUeJDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Wasteland-sample-epub.acsm?id=XUeJDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Wasteland-sample-pdf.acsm?id=XUeJDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=XUeJDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Wasteland is the third episode in Terry Goodkind&#39;s new serial novel, The Children of D&#39;Hara. Told in irresistibly intense instalments, this is the story of a world confronted by an apocalyptic nightmare."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "OnF8DwAAQBAJ",
+            "etag": "y4sVKiLw/M0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/OnF8DwAAQBAJ",
+            "volumeInfo": {
+                "title": "The Scribbly Man",
+                "subtitle": "The Children of D'Hara, episode 1",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Head of Zeus Ltd",
+                "publishedDate": "2019-04-04",
+                "description": "'We have all caught fleeting glimpses of them: the monster under the bed, the dark shadow just out of sight, the knot of unexpected terror in the pit of your stomach' – Kahlan Amnell. The world has been forged anew. Tyranny vanquished, the breach between the living and the dead healed, the stars themselves realigned. It is the triumph Richard Rahl and his wife Kahlan Amnell fought so hard, over so many years, for. Ruling a vast realm encompassing lands and peoples unknown, they have vowed to bring a golden age of peace to a world shattered by terror and war. What Richard does not expect is a demand for his immediate, unconditional surrender. Not of D'Hara, but of the entire world... The Scribbly Man is the first episode in Terry Goodkind's new serial novel, The Children of D'Hara. Told in irresistibly intense instalments, this is the story of a world confronted by an apocalyptic nightmare. If you've read Terry Goodkind before, welcome back. If you haven't, there's no better place to start than here. 'I want to introduce everyone to THE CHILDREN OF D'HARA, a new series that continues the story of the lives of Richard and Kahlan. This is a journey that began 25 years ago with the 1994 release of WIZARD'S FIRST RULE, when Richard first met Kahlan that fateful day in the Hartland woods. After the Sword of Truth series ended, I knew there was more to Richard and Kahlan's story. Much more. A whole world more. For years, readers have asked me about Richard and Kahlan's lives after the Sword of Truth series... and importantly, about their children. While my masterwork, Sword of Truth, concluded with WARHEART – 20 languages and 26 million books sold – I was burning to tell readers more about Richard and Kahlan. For that reason, this new series starts immediately after the 'Sword of Truth' books ended. Without skipping a beat, readers will plunge back into Richard and Kahlan's lives, with new episodes releasing every three months. So it is that I want to welcome you all back into the Sword of Truth world with many of the characters besides Richard and Kahlan, such as the Mord-Sith, that we have come to love. Learn what the star shift has done to their world and what monsters now lurk in shadows. I promise an arresting, beautiful, and sometimes tragic adventure that will keep you glued to this irresistible story.' – Terry Goodkind.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781789541175"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1789541174"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 192,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5.0,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.4.4.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=OnF8DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=OnF8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=OnF8DwAAQBAJ&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=OnF8DwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=OnF8DwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=OnF8DwAAQBAJ&rdid=book-OnF8DwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/The_Scribbly_Man-sample-epub.acsm?id=OnF8DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/The_Scribbly_Man-sample-pdf.acsm?id=OnF8DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=OnF8DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Scribbly Man is the first episode in Terry Goodkind&#39;s new serial novel, The Children of D&#39;Hara. Told in irresistibly intense instalments, this is the story of a world confronted by an apocalyptic nightmare."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "OEeJDwAAQBAJ",
+            "etag": "oFkeXX+TN2Y",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/OEeJDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Hateful Things",
+                "subtitle": "The Children of D'Hara, episode 2",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Head of Zeus Ltd",
+                "publishedDate": "2019-07-22",
+                "description": "'The Sword of Truth series was my masterwork. Yet, life for these characters goes on after the conclusion of that series. For years readers have been asking about Richard and Kahlan's children. This is that story' TERRY GOODKIND. In 1994 Wizard's First Rule introduced Richard Cypher, a young woodsman seeking answers and vengeance in the aftermath of his father's murder, and Kahlan Amnell, a mysterious young woman pursued by a bloodthirsty tyrant's assassins. The Sword of Truth is one of the most ambitious fantasy series ever written. It was a decades-long masterwork that has been translated into 20 languages and sold 26 million copies. After 16 volumes and one novella, it concluded in 2016 with Warheart. The Children of D'Hara picks up immediately after the conclusion of the Sword of Truth series. The story will be told in instalments, as novella-length episodes published every three months. Hateful Things is the second novella.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781789541199"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1789541190"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 160,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.2.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=OEeJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=OEeJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=OEeJDwAAQBAJ&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=OEeJDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=OEeJDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=OEeJDwAAQBAJ&rdid=book-OEeJDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Hateful_Things-sample-epub.acsm?id=OEeJDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Hateful_Things-sample-pdf.acsm?id=OEeJDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=OEeJDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&#39;This is not the way I wanted it to be."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "YEiJDwAAQBAJ",
+            "etag": "yNP9TkNY5lI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/YEiJDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Witch's Oath",
+                "subtitle": "The Children of D'Hara, episode 4",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Head of Zeus Ltd",
+                "publishedDate": "2020-01-06",
+                "description": "Richard knew that there would be no help coming. It was all up to him to stop the threat or Kahlan would die. They all would die. Nine companions – Richard, Kahlan, the witch woman Shale and six Mord-Sith, Rikka, Vale, Cassia, Nyda, Berdine and Vika – are hunting a warlock in the waterlogged depths of the People's Palace. It will take all their skills to close on their quarry, but do any of them understand the true power of a Witch's Oath? Witch's Oath is the fourth episode in Terry Goodkind's new serial novel, The Children of D'Hara. Told in irresistibly intense instalments, this is the story of a world confronted by an apocalyptic nightmare. 'I want to introduce everyone to THE CHILDREN OF D'HARA, a new series that continues the story of the lives of Richard and Kahlan. This is a journey that began 25 years ago with the 1994 release of WIZARD'S FIRST RULE, when Richard first met Kahlan that fateful day in the Hartland woods. After the Sword of Truth series ended, I knew there was more to Richard and Kahlan's story. Much more. A whole world more. For years, readers have asked me about Richard and Kahlan's lives after the Sword of Truth series... and importantly, about their children. While my masterwork, Sword of Truth, concluded with WARHEART – 20 languages and 26 million books sold – I was burning to tell readers more about Richard and Kahlan. For that reason, this new series starts immediately after the 'Sword of Truth' books ended. Without skipping a beat, readers will plunge back into Richard and Kahlan's lives, with new episodes releasing every three months. So it is that I want to welcome you all back into the Sword of Truth world with many of the characters besides Richard and Kahlan, such as the Mord-Sith, that we have come to love. Learn what the star shift has done to their world and what monsters now lurk in shadows. I promise an arresting, beautiful, and sometimes tragic adventure that will keep you glued to this irresistible story.' – Terry Goodkind.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781789541304"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1789541301"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 336,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.2.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=YEiJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=YEiJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=YEiJDwAAQBAJ&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=YEiJDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=YEiJDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 5.49,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=YEiJDwAAQBAJ&rdid=book-YEiJDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5490000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Witch_s_Oath-sample-epub.acsm?id=YEiJDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Witch_s_Oath-sample-pdf.acsm?id=YEiJDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=YEiJDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Witch&#39;s Oath is the fourth episode in Terry Goodkind&#39;s new serial novel, The Children of D&#39;Hara. Told in irresistibly intense instalments, this is the story of a world confronted by an apocalyptic nightmare."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "lll3DAAAQBAJ",
+            "etag": "GvyuJzgqyiU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/lll3DAAAQBAJ",
+            "volumeInfo": {
+                "title": "Death's Mistress",
+                "subtitle": "Sister of Darkness: The Nicci Chronicles",
+                "authors": [
+                    "Terry Goodkind"
+                ],
+                "publisher": "Macmillan",
+                "publishedDate": "2017-01-24",
+                "description": "A New York Times bestseller, Death's Mistress: Sister of Darkness begins The Nicci Chronicles, Terry Goodkind's series with a cast of characters centered on one of his best-loved characters in the now-concluded Sword of Truth. One-time lieutenant of the evil Emperor Jagang, known as “Death’s Mistress” and the “Slave Queen”, the deadly Nicci captured Richard Rahl in order to convince him that the Imperial Order stood for the greater good. But it was Richard who converted Nicci instead, and for years thereafter she served Richard and Kahlan as one of their closest friends—and one of their most lethal defenders. Now, with the reign of Richard and Kahlan finally stabilized, Nicci has set out on her own for new adventures. One of her jobs will be to keep her travelling companion, the unworldly prophet Nathan, out of trouble. But her real task will be to scout the far reaches of Richard Rahl’s realm. This will take her and Nathan to visit the mysterious witch-woman Red, to tangle with the street life of the port city of Tanimura, to fight lethal battles on the high seas, and ultimately to a vast magical confrontation far from home...with the future of life itself, in the Old World and the New, at stake. Full of life and story, this is a sweeping, engaging tale in the grand Goodkind manner. The Nicci Chronicles 1. Death's Mistress 2. Shroud of Eternity 3. Siege of Stone At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780765388223"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0765388227"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 512,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 5,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.9.9.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=lll3DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=lll3DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=lll3DAAAQBAJ&printsec=frontcover&dq=inauthor:Terry+Goodkind&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=lll3DAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lll3DAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=lll3DAAAQBAJ&rdid=book-lll3DAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000.0,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=lll3DAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Full of life and story, this is a sweeping, engaging tale in the grand Goodkind manner. The Nicci Chronicles 1. Death&#39;s Mistress 2. Shroud of Eternity 3."
+            }
+        }
+    ]
+}
