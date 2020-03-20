@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Image, Text, StyleSheet} from 'react-native';
 
 const BookItem = props => {
-    console.log('world')
     return (
         <View style={styles.bookItemContainer}>
             <Image style={styles.imageStyle} source={{uri: props.imgSrc}} />
@@ -23,7 +22,9 @@ const styles = StyleSheet.create({
     bookItemContainer: {
         marginVertical: 15,
         alignItems: 'center',
-        width: '50%'
+        width: '100%',
+        justifyContent: 'flex-end',
+        alignItems: 'flex-end'
     }
 })
 
