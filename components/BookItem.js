@@ -13,18 +13,19 @@ const BookItem = props => {
 
 const styles = StyleSheet.create({
     imageStyle: {
-        width: 100,
-        height: 200,
+        width: 150,
+        height: 225,
     },
     textStyles: {
-        fontSize: 15
+        fontSize: 20,
+        fontWeight: 'bold'
     },
     bookItemContainer: {
         marginVertical: 15,
         alignItems: 'center',
         width: '100%',
         justifyContent: 'flex-end',
-        alignItems: 'flex-end'
+        width: 170
     }
 })
 

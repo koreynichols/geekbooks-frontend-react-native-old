@@ -9,7 +9,7 @@ const bookData = require('../data/books-data.json');
 const BookList = () => {
     const renderBookItem = selectedBook => {
         return(
-            <View>
+            <View style={styles.listStyle}>
                 <BookItem 
                     imgSrc={selectedBook.item.volumeInfo.imageLinks.thumbnail}
                     bookTitle={selectedBook.item.volumeInfo.title}
@@ -31,15 +31,12 @@ const BookList = () => {
 };
 
 const styles = StyleSheet.create({
-    imageStyle: {
-        width: 100,
-        height: 200,
-    },
     container: {
-        flex: 1,
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        alignContent: 'center',
+        alignItems: 'center',
+        width: '100%'
+    },
+    listStyle: {
+        padding: 15,
     }
 });
 
