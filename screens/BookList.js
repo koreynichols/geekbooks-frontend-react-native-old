@@ -1,21 +1,26 @@
 import React from 'react';
-import { Text, View, StyleSheet, Image, FlatList, ScrollView } from 'react-native';
+import { Text, View, StyleSheet, Image, FlatList, ScrollView, TouchableOpacity } from 'react-native';
 
 import BookItem from '../components/BookItem';
 
 const bookData = require('../data/books-data.json');
 
 
-const BookList = () => {
+const BookList = props => {
+
     const renderBookItem = selectedBook => {
         return(
-            <View style={styles.listStyle}>
-                <BookItem 
-                    imgSrc={selectedBook.item.volumeInfo.imageLinks.thumbnail}
-                    bookTitle={selectedBook.item.volumeInfo.title}
-                    bookAuthor={selectedBook.item.volumeInfo.authors}
-                />
-            </View>
+            <TouchableOpacity onPress={() => {props.navigation.navigate({
+                routeName: 'BookDetailScreen'
+                })}} >
+                <View style={styles.listStyle}>
+                    <BookItem 
+                        imgSrc={selectedBook.item.volumeInfo.imageLinks.thumbnail}
+                        bookTitle={selectedBook.item.volumeInfo.title}
+                        bookAuthor={selectedBook.item.volumeInfo.authors}
+                    />
+                </View>
+            </TouchableOpacity>
         );
     };
 
