@@ -3,8 +3,9 @@ import { Text, View, StyleSheet, Image } from 'react-native';
 
 const bookData = require('../data/books-data.json');
 
-const BookDetailScreen = () => {
-    const selectedBook = bookData.items.find(book => book.id === 'hn1FNJXPMrUC');
+const BookDetailScreen = props => {
+    selectedBookId = props.navigation.getParam('bookId')
+    const selectedBook = bookData.items.find(book => book.id === selectedBookId);
     console.log(selectedBook.volumeInfo.title);
     return (
         <View style={styles.container}>

@@ -11,8 +11,11 @@ const BookList = props => {
     const renderBookItem = selectedBook => {
         return(
             <TouchableOpacity onPress={() => {props.navigation.navigate({
-                routeName: 'BookDetailScreen'
-                })}} >
+                routeName: 'BookDetailScreen',
+                params: {
+                    bookId: selectedBook.item.id
+                }
+            })}} >
                 <View style={styles.listStyle}>
                     <BookItem 
                         imgSrc={selectedBook.item.volumeInfo.imageLinks.thumbnail}
