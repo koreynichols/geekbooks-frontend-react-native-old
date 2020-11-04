@@ -6,7 +6,11 @@ import RegisterScreen from '../screens/RegisterScreen';
 import LoginScreen from '../screens/LoginScreen';
 
 const AuthNavigator = createStackNavigator({
-    Landing: LandingScreen,
+    Landing: {
+        screen: LandingScreen,
+        navigationOptions: {
+            header: null,
+        }},
     Register: RegisterScreen,
     Login: LoginScreen
 });

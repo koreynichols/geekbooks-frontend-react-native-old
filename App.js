@@ -5,7 +5,7 @@ import AuthNavigator from './navigation/AuthNavigator';
 import BookNavigator from './navigation/BookNavigator';
 export default function App() {
   return (
-    <BookNavigator />
+    <AuthNavigator />
   );
 }
 
