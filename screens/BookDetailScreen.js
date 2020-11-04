@@ -16,7 +16,7 @@ const BookDetailScreen = props => {
                 if(selectedBook.saleInfo.saleability == "FOR_SALE")
                     return <Text style={styles.textStyles}>Price: ${selectedBook.saleInfo.retailPrice.amount}</Text> 
                 else
-                    return <Text>NOT FOR SALE</Text>
+                    return <Text style={styles.notForSale}>NOT FOR SALE</Text>
                 })()}
         </View>
     )
@@ -29,6 +29,10 @@ const styles = StyleSheet.create({
     },
     textStyles: {
         fontSize: 25
+    },
+    notForSale: {
+        fontSize: 25,
+        color: "red"
     }
 });
 
