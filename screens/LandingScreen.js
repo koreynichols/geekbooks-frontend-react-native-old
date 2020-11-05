@@ -13,14 +13,14 @@ const LandingPage = props => {
                 <View style={styles.innerContainer}>
             <Text style={styles.title}>GeekBooks</Text>
             <View style={styles.button}>
-                <AppButton title="Login" onPress={() => {
+                <AppButton title="Login" style={styles.login} onPress={() => {
                     props.navigation.navigate({
                         routeName: 'Login'
                     })
                 }} />
             </View>
             <View style={styles.button}> 
-                <Button title="Register" onPress={() => {
+                <AppButton title="Register" style={styles.register} onPress={() => {
                     props.navigation.navigate({
                         routeName: 'Register'
                     })
@@ -37,9 +37,15 @@ const styles = StyleSheet.create({
         marginVertical: 20,
         width: 120,
     },
+    login: {
+        backgroundColor: "#009688"
+    },
+    register: {
+        backgroundColor: "#889688"
+    },
     title: {
-        fontSize: 50,
-        marginTop: 10,
+        fontSize: 55,
+        marginBottom: 25,
         fontWeight: "bold",
     },
     container: {
