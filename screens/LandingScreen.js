@@ -2,6 +2,8 @@ import React from 'react';
 import { ImageBackground } from 'react-native';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
+import AppButton from "../components/AppButton"
+
 const image = require("../assets/books-background.jpg");
 
 const LandingPage = props => {
@@ -11,7 +13,7 @@ const LandingPage = props => {
                 <View style={styles.innerContainer}>
             <Text style={styles.title}>GeekBooks</Text>
             <View style={styles.button}>
-                <Button title="Login" color='green' onPress={() => {
+                <AppButton title="Login" onPress={() => {
                     props.navigation.navigate({
                         routeName: 'Login'
                     })
