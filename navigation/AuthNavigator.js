@@ -11,8 +11,8 @@ const AuthNavigator = createStackNavigator({
         navigationOptions: {
             header: null,
         }},
-    Register: RegisterScreen,
-    Login: LoginScreen
+        Register: RegisterScreen,
+        Login: LoginScreen
 });
 
 export default createAppContainer(AuthNavigator);
