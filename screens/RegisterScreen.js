@@ -1,6 +1,6 @@
 import React, { useState }from 'react';
 import { View, Text, Button, TextInput, StyleSheet } from 'react-native';
-
+import AppButton from '../components/AppButton';
 const RegisterScreen = () => {
     const[firstName, setFirstName] = useState('');
     const[lastName, setLastName] = useState('');
@@ -50,9 +50,6 @@ const RegisterScreen = () => {
 
     return (
         <View style={styles.container}>
-            <View>
-                <Text style={styles.title}>Register Form</Text>
-            </View>
             <View style={styles.formComponent}>
                 <Text style={styles.label}>First Name: </Text>
                 <TextInput 
@@ -108,20 +105,30 @@ const RegisterScreen = () => {
                     value={confirmPassword}
                 />
             </View>
-            <Button title='Submit' onPress={submitFormHandler} />
-            <Button title='Reset' onPress={resetFormHandler} />
+            <AppButton title='Submit' style={styles.submit} onPress={submitFormHandler} />
+            <AppButton title='Reset' style={styles.reset} onPress={resetFormHandler} />
         </View>
     )
 };
 
 const styles = StyleSheet.create({
+    submit: {
+        marginTop: 20,
+        backgroundColor: '#009688',
+    },
+    reset: {
+        marginTop: 15,
+        backgroundColor: '#A60011'
+    },
     input: {
-        width: 200,
-        textAlign: 'center',
-        height: 20,
-        borderColor: 'grey',
-        borderBottomWidth: 1,
-        marginVertical: 10
+        width: '50%',
+        height: 50,
+        backgroundColor: 'white',
+        borderColor: 'black',
+        borderWidth: 1,
+        borderRadius: 20,
+        fontSize: 18,
+        paddingHorizontal: 10
     },
     formComponent: {
         flexDirection: 'row',
@@ -132,11 +139,11 @@ const styles = StyleSheet.create({
         textAlignVertical: 'center'
     },
     container: {
-        alignItems: 'center'
+        alignItems: 'center',
+        marginTop: '5%',
+        maxWidth: '80%',
+        marginHorizontal: '10%'
     },
-    title: {
-        fontSize: 40
-    }
 });
 
 export default RegisterScreen;

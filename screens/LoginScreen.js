@@ -70,7 +70,6 @@ const styles = StyleSheet.create({
     },
     input: {
         width: 240,
-        // textAlign: 'center',
         height: 50,
         backgroundColor: 'white',
         borderColor: 'black',
