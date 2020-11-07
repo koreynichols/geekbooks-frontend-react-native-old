@@ -21,7 +21,7 @@ const BookDetailScreen = props => {
             <Image style={{width: 250, height: 400}} source={{uri: selectedBook.volumeInfo.imageLinks.thumbnail}} />
             <Text style={styles.textStyles}>Title: {selectedBook.volumeInfo.title}</Text>
             <Text style={styles.textStyles}>Author: {selectedBook.volumeInfo.authors}</Text>
-            <Text style={styles.descriptionStyle}>Description: {selectedBook.volumeInfo.description}</Text>
+            <Text ellipsizeMode='tail' numberOfLines={2} style={styles.descriptionStyle}>Description: {selectedBook.volumeInfo.description}</Text>
             {isForSale()}
         </View>
         </ScrollView>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         marginRight: 10
     },
     viewStyle: {
-        backgroundColor: "#9bc8cc"
+        backgroundColor: "#cccccc"
     }
 });
 
