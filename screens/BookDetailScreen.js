@@ -21,7 +21,10 @@ const BookDetailScreen = props => {
             <Image style={{width: 250, height: 400}} source={{uri: selectedBook.volumeInfo.imageLinks.thumbnail}} />
             <Text style={styles.textStyles}>Title: {selectedBook.volumeInfo.title}</Text>
             <Text style={styles.textStyles}>Author: {selectedBook.volumeInfo.authors}</Text>
-            <Text ellipsizeMode='tail' numberOfLines={2} style={styles.descriptionStyle}>Description: {selectedBook.volumeInfo.description}</Text>
+            <Text numberOfLines={2} style={styles.descriptionStyle}>
+                Description: {selectedBook.volumeInfo.description}
+            </Text>
+            <Text>Read more...</Text>
             {isForSale()}
         </View>
         </ScrollView>
