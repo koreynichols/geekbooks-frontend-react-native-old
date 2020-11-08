@@ -26,6 +26,7 @@ const BookDetailScreen = props => {
             </Text>
             <Text>Read more...</Text>
             {isForSale()}
+            <Text style={styles.textStyles}>Rating: {selectedBook.volumeInfo.averageRating} / 5</Text>
         </View>
         </ScrollView>
     )
