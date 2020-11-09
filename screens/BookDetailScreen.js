@@ -40,9 +40,6 @@ const BookDetailScreen = props => {
                 <Text style={styles.textStyles}>Rating: {selectedBook.volumeInfo.averageRating} / 5</Text>
             </View>)
     }
-    // if(!isReview){
-    //     content = (<Text>Hello World</Text>)
-    // }
 
     return (
         <TouchableWithoutFeedback>
