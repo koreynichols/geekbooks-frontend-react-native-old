@@ -2,8 +2,6 @@ import React from 'react';
 import { Button } from 'react-native';
 import { Text, View, StyleSheet, Image, ScrollView} from 'react-native';
 
-import LandingPage from './LandingScreen';
-
 const bookData = require('../data/books-data.json');
 
 const BookDetailScreen = props => {
@@ -26,7 +24,7 @@ const BookDetailScreen = props => {
 
     function aboutOrReview(isItTrue) {
         if(isItTrue) {
-            content = <LandingPage></LandingPage>
+            content = <Text>you win</Text>
                 // <View style={styles.container}>
                 //     <Text style={styles.textStyles}>Title: {selectedBook.volumeInfo.title}</Text>
                 //     <Text style={styles.textStyles}>Author: {selectedBook.volumeInfo.authors}</Text>
