@@ -1,12 +1,17 @@
 import React from 'react';
+import { Button } from 'react-native';
 import { Text, View, StyleSheet, Image, ScrollView} from 'react-native';
+
+import LandingPage from './LandingScreen';
 
 const bookData = require('../data/books-data.json');
 
 const BookDetailScreen = props => {
     selectedBookId = props.navigation.getParam('bookId')
     const selectedBook = bookData.items.find(book => book.id === selectedBookId);
+
     console.log(selectedBook.volumeInfo.title);
+
 
     function isForSale(){
         if(selectedBook.saleInfo.saleability == "FOR_SALE")
@@ -15,26 +20,42 @@ const BookDetailScreen = props => {
             return <Text style={styles.notForSale}>NOT FOR SALE</Text>
     }
 
+    let content;
+    aboutOrReview(false);
+
+
+    function aboutOrReview(isItTrue) {
+        if(isItTrue) {
+            content = <LandingPage></LandingPage>
+                // <View style={styles.container}>
+                //     <Text style={styles.textStyles}>Title: {selectedBook.volumeInfo.title}</Text>
+                //     <Text style={styles.textStyles}>Author: {selectedBook.volumeInfo.authors}</Text>
+                //     <Text numberOfLines={2} style={styles.descriptionStyle}>
+                //         Description: {selectedBook.volumeInfo.description}
+                //     </Text>
+                //     <Text>Read more...</Text>
+                //     {isForSale()}
+                //     <Text style={styles.textStyles}>Rating: {selectedBook.volumeInfo.averageRating} / 5</Text>
+                // </View>
+        }
+        else
+            content = <Text>Hello World</Text>
+    }
+
     return (
         <ScrollView style={styles.viewStyle}>
         <View style={styles.container}>
             <Image style={{width: 250, height: 400}} source={{uri: selectedBook.volumeInfo.imageLinks.thumbnail}} />
-            <Text style={styles.textStyles}>Title: {selectedBook.volumeInfo.title}</Text>
-            <Text style={styles.textStyles}>Author: {selectedBook.volumeInfo.authors}</Text>
-            <Text numberOfLines={2} style={styles.descriptionStyle}>
-                Description: {selectedBook.volumeInfo.description}
-            </Text>
-            <Text>Read more...</Text>
-            {isForSale()}
-            <Text style={styles.textStyles}>Rating: {selectedBook.volumeInfo.averageRating} / 5</Text>
         </View>
+        <Button title='hello' onPress={() => aboutOrReview(true)}></Button>
+            {content}
         </ScrollView>
     )
 };
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 30,
+        marginTop: 15,
         marginBottom: 30,
         alignItems: "center",
     },
