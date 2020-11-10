@@ -24,12 +24,16 @@ const BookDetailScreen = props => {
 
     const confirmReviewHandler = () => {
         console.log('hello world')
+        setIsReview(false);
+    }
+    const notConfirmReviewHandler = () => {
+        console.log('hello world')
         setIsReview(true);
     }
 
     let content;
 
-    if(isReview) {
+    if(!isReview) {
         content = (
             <View style={styles.container}>
                 <Text style={styles.textStyles}>Title: {selectedBook.volumeInfo.title}</Text>
@@ -39,6 +43,12 @@ const BookDetailScreen = props => {
                 </Text>
                 <Text>Read more...</Text>
                 {isForSale()}
+            </View>)
+    }
+
+    if(isReview) {
+        content = (
+            <View style={styles.container}>
                 <Text style={styles.textStyles}>Rating: {selectedBook.volumeInfo.averageRating} / 5</Text>
             </View>)
     }
@@ -48,7 +58,10 @@ const BookDetailScreen = props => {
             <View style={styles.container}>
                 <Image style={{width: 250, height: 400}} source={{uri: selectedBook.volumeInfo.imageLinks.thumbnail}} />
             </View>
-            <BookDetailTab title='hello' />
+            <View style={styles.tabContainer}>
+                <BookDetailTab title='detail' onPress={confirmReviewHandler}/>
+                <BookDetailTab title='reviews' onPress={notConfirmReviewHandler} />
+            </View>
                 {content}
             </ScrollView>
     )
@@ -77,6 +90,10 @@ const styles = StyleSheet.create({
     },
     viewStyle: {
         backgroundColor: "#cccccc"
+    },
+    tabContainer: {
+        marginLeft: '10%',
+        flexDirection: 'row',
     }
 });
 

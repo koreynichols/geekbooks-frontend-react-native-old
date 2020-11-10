@@ -3,14 +3,14 @@ import {Text, StyleSheet, TouchableOpacity} from 'react-native';
 
 const BookDetailTab = props => {
     return (
-        <TouchableOpacity style={[styles.appButtonContainer]}>
+        <TouchableOpacity onPress={props.onPress} style={[styles.DetailTabContainer]}>
             <Text style={styles.appButtonText}>{props.title}</Text>
         </TouchableOpacity>
     );
 }
 
 const styles = StyleSheet.create({
-    appButtonContainer: {
+    DetailTabContainer: {
         // elevation: 8,
         backgroundColor: "#009688",
         borderTopLeftRadius: 10,
