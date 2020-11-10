@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Button } from 'react-native';
 import { Text, View, StyleSheet, Image, ScrollView, TouchableWithoutFeedback} from 'react-native';
+import BookDetailTab from '../components/BookDetailTab';
+ 
 
 const bookData = require('../data/books-data.json');
 
@@ -42,15 +44,13 @@ const BookDetailScreen = props => {
     }
 
     return (
-        <TouchableWithoutFeedback>
             <ScrollView style={styles.viewStyle}>
             <View style={styles.container}>
                 <Image style={{width: 250, height: 400}} source={{uri: selectedBook.volumeInfo.imageLinks.thumbnail}} />
             </View>
-            <Button title='hello' onPress={confirmReviewHandler}></Button>
+            <BookDetailTab title='hello' />
                 {content}
             </ScrollView>
-        </TouchableWithoutFeedback>
     )
 };
 
