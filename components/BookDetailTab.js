@@ -3,7 +3,7 @@ import {Text, StyleSheet, TouchableOpacity} from 'react-native';
 
 const BookDetailTab = props => {
     return (
-        <TouchableOpacity onPress={props.onPress} style={[styles.DetailTabContainer]}>
+        <TouchableOpacity onPress={props.onPress} style={[styles.DetailTabContainer, props.style]}>
             <Text style={styles.appButtonText}>{props.title}</Text>
         </TouchableOpacity>
     );
@@ -11,11 +11,9 @@ const BookDetailTab = props => {
 
 const styles = StyleSheet.create({
     DetailTabContainer: {
-        // elevation: 8,
         backgroundColor: "#009688",
         borderTopLeftRadius: 10,
         borderTopRightRadius: 10,
-        // borderRadius: 10,
         paddingVertical: 10,
         paddingHorizontal: 12,
         width: '40%',

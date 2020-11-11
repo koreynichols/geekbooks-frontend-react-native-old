@@ -13,8 +13,6 @@ const BookDetailScreen = props => {
     selectedBookId = props.navigation.getParam('bookId')
     const selectedBook = bookData.items.find(book => book.id === selectedBookId);
 
-    console.log(selectedBook.volumeInfo.title);
-
     function isForSale(){
         if(selectedBook.saleInfo.saleability == "FOR_SALE")
             return <Text style={styles.textStyles}>Price: ${selectedBook.saleInfo.retailPrice.amount}</Text> 
@@ -23,11 +21,10 @@ const BookDetailScreen = props => {
     }
 
     const confirmReviewHandler = () => {
-        console.log('hello world')
         setIsReview(false);
     }
+
     const notConfirmReviewHandler = () => {
-        console.log('hello world')
         setIsReview(true);
     }
 
@@ -70,7 +67,7 @@ const BookDetailScreen = props => {
 const styles = StyleSheet.create({
     container: {
         marginTop: 15,
-        marginBottom: 30,
+        marginBottom: 10,
         alignItems: "center",
     },
     textStyles: {
